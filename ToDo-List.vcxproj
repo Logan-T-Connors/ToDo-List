@@ -136,7 +136,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="README.md" />
-    <None Include="ToDo.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="TasksToDo.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

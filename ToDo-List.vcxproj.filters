@@ -20,11 +20,13 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="ToDo.json">
-      <Filter>source</Filter>
-    </None>
     <None Include="README.md">
       <Filter>source\misc</Filter>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="TasksToDo.txt">
+      <Filter>source</Filter>
+    </Text>
   </ItemGroup>
 </Project>

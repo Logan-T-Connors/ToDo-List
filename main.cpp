@@ -20,13 +20,7 @@ string task, date, title;
 int ID, currentTask;
 
 // Declaring the functions
-void errorHandling();
-void closeApp();
-void viewTask();
-void createTask();
-void updateTask();
-void deleteTask();
-void searchTask();
+void errorHandling(), closeApp(), void viewTask(), void createTask(), void updateTask(), void deleteTask(), void searchTask();
 
 //	Main Window
 void main() {
