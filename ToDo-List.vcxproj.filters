@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="build">
+      <UniqueIdentifier>{8b637377-eeff-44e4-a01e-38d7fc377d60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="build\intermediates">
+      <UniqueIdentifier>{d1658333-b769-4eae-ac62-b0bea62198f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{5e6880ac-fd40-4808-b31f-8ac471d95271}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\misc">
+      <UniqueIdentifier>{7340b727-05fa-4cff-9456-3bb552912cef}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ToDo.json">
+      <Filter>source</Filter>
+    </None>
+    <None Include="README.md">
+      <Filter>source\misc</Filter>
+    </None>
+  </ItemGroup>
+</Project>
